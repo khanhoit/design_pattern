@@ -45,5 +45,3 @@ public class Order {
         return vegetableType;
     }
 }
-
-
