@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="96.0" y="312.0">oit.com.structural.adapter.transaltion.VietnameseClient</node>
+    <node x="36.5" y="103.0">oit.com.structural.adapter.transaltion.TranslatorAdapter</node>
+    <node x="17.638888888888886" y="0.0">oit.com.structural.adapter.transaltion.JapaneseAdaptee</node>
+    <node x="213.75" y="0.0">oit.com.structural.adapter.transaltion.VietnameseTarget</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="oit.com.structural.adapter.transaltion.TranslatorAdapter" target="oit.com.structural.adapter.transaltion.JapaneseAdaptee">
+      <point x="-93.0" y="-79.5" />
+      <point x="83.0" y="78.0" />
+      <point x="44.138888888888886" y="71.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="oit.com.structural.adapter.transaltion.TranslatorAdapter" target="oit.com.structural.adapter.transaltion.VietnameseTarget">
+      <point x="93.0" y="-79.5" />
+      <point x="269.0" y="78.0" />
+      <point x="253.75" y="78.0" />
+      <point x="-40.0" y="26.5" />
+    </edge>
+    <edge source="oit.com.structural.adapter.transaltion.VietnameseClient" target="oit.com.structural.adapter.transaltion.TranslatorAdapter">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="79.5" />
+    </edge>
+    <edge source="oit.com.structural.adapter.transaltion.VietnameseClient" target="oit.com.structural.adapter.transaltion.VietnameseTarget">
+      <point x="53.33333333333334" y="-26.5" />
+      <point x="229.33333333333334" y="287.0" />
+      <point x="333.75" y="287.0" />
+      <point x="40.0" y="26.5" />
+    </edge>
+    <edge source="oit.com.structural.adapter.transaltion.VietnameseClient" target="oit.com.structural.adapter.transaltion.JapaneseAdaptee">
+      <point x="-53.33333333333334" y="-26.5" />
+      <point x="122.66666666666666" y="287.0" />
+      <point x="26.0" y="287.0" />
+      <point x="26.0" y="78.0" />
+      <point x="43.138888888888886" y="78.0" />
+      <point x="-51.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="123.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
